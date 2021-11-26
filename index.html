@@ -1,0 +1,180 @@
+<!doctype html>
+
+<html class="no-js" lang="en" dir="ltr">
+
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GDES1060 Project 2</title>
+    <link rel="stylesheet" href="css/foundation.css">
+    <link rel="stylesheet" href="css/foundation-datepicker.min.css">
+    <link rel="stylesheet" href="css/app.css">
+     <script src="https://kit.fontawesome.com/f3e3459b73.js" crossorigin="anonymous"></script>
+    
+  </head>
+
+
+  <body>
+
+    <a class="skip-link" href="#main">Skip to content</a>
+
+
+     
+
+  <header>
+    <div class="grid-container">
+    <div class="grid-x align-middle">
+    <div class="cell medium-4">
+    <a href="#">Italia</a> 
+ </div>
+  <div class="cell medium-4">
+    <ul class="menu align-middle show-for-medium">
+       <li><a href="#">Home</a></li>
+          <li><a href="#">Book</a></li>
+          <li><a href="#">Activites</a></li>
+         </ul>
+          </div>
+           </div>
+            </div> 
+
+     </header>
+
+    
+  <section class="About"> 
+    <div class="grid-container">
+    <div class="grid-x align-left">
+    <div class="cell medium-6">
+    <img src="img/homepage.jpg">
+  </div> 
+    <div class="grid-container"> 
+    <div class="grid-x align-right">
+    <div class="cell medium-6">
+    <h1>About</h1>
+    <p>Italia cares about their customers and their values.</p>
+    </div>
+      </div>
+        </div> 
+  
+   </section>
+
+  
+   <section class="Book">
+    <div class="grid-container">
+    <div class="grid-x align-left">
+    <div class="cell medium-6">
+      <img src="img/views.jpg">
+    </div>
+
+    </section>  
+
+    
+    <section class="activites">
+      <div class="grid-container">
+        <div class="grid-x grid-margin-x">
+          <div class="cell">
+            <h1>Activites</h1>
+          </div>
+        </div>
+        <div class="grid-x grid-margin-x">
+          <div class="cell medium-4">
+          <img src="img/shopping.jpg">
+          <h2>Shopping</h2>
+          <p>Have fun shopping in Italy; there are so many shops that you will never be bored, and you will always find something you like.</p>
+        </div>
+        
+        
+          <div class="cell medium-4">
+          <img src="img/beach.jpg">
+          <h2>Beaches</h2>
+          <p>Take a journey down to the coast of Italy with your family to one of the various beaches.</p>
+        </div> 
+          
+          <div class="cell medium-4">
+            <img src="img/bars.jpg">
+            <h2>Bars</h2> 
+            <p>When it comes to bars, Italy's wine is unrivaled.</p>
+            </div> 
+             </div>
+              </div> 
+          
+         </section>  
+
+         <footer> 
+           <div class="grid-container">
+            <div class="grid-x">
+              <div class="cell">
+              <address></address>
+         <a href="#"><i class="fab fa-instagram"></i></a>
+         <a href="#"><i class="fab fa-facebook-f"></i></a>
+         <a href="#"><i class="fab fa-twitter"></i></a> 
+            </div>
+             </div>
+               </div>
+
+         </footer>
+
+
+    
+
+
+     
+
+    
+
+    
+    <table class="table">
+      <thead>
+        <tr class="grid-x">
+          <th class="cell small-6">Check in:
+            <input type="text" class="span2" value="" id="dpd1">
+          </th>
+          <th class="cell small-6">Check out:
+            <input type="text" class="span2" value="" id="dpd2">
+          </th>
+        </tr>
+        <tr class="grid-x">
+          <th class="cell">
+            <input type="submit" class="submit button radius small" value="Check Availability" data-open="confirmation-overlay">
+          </th>
+        </tr>        
+      </thead>
+    </table>
+
+    <!--
+
+    - overlay window with spans used to show data from datepicker
+    - edit the grid however you would like to fit your layout, but
+    - do not delete the <span class="dpd1"></span> and <span class="dpd2"></span> tags, these are used to show the user the dates they selected
+    - this section can go anywhere in your code, but to keep things organized, place it after the section where you have your date picker form
+
+    -->
+
+    <div id="confirmation-overlay" class="reveal" data-reveal>
+      <div class="grid-x">
+        <div class="cell large-7">
+          <div class="overlay">
+            <h1>Success</h1>
+            <h2>You've booked a room from <span class="dpd1"></span> to <span class="dpd2"></span>.</h2>
+          </div>
+        </div>
+      </div>
+      <button class="close-button" data-close aria-label="Close modal" type="button"><span aria-hidden="true">&times;</span></button>
+    </div>
+
+    <!--
+
+    - do not delete anything below this line
+    - do not place any code below this line
+
+    -->
+
+    <script src="js/vendor/jquery.js"></script>
+    <script src="js/vendor/what-input.js"></script>
+    <script src="js/vendor/foundation.js"></script>
+    <script src="js/vendor/foundation-datepicker.min.js"></script>
+    <script src="js/app.js"></script>
+
+  </body>
+
+</html>
